@@ -14,7 +14,7 @@ namespace InventoryApi.Models
         public int Id { get; set; }
 
         [Column("quantity")]
-        public string Quantity { get; set; }
+        public int Quantity { get; set; }
 
         [Column("itemname")]
         public string ItemName { get; set; }
