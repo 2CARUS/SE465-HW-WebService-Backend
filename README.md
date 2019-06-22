@@ -1,6 +1,7 @@
 # SE465-HW-WebService-Backend
 
-### Description
+### Assignment description
+> ...This group assignment requires you to design and implement a small prototype in order to show case the successful use of web services in order to solve a specific domain.
 
 - This repository contains data ViewModels that were created in accordance with Entity Framework.
 
@@ -29,5 +30,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMjQzNTY0LC00NDIyMDc0MTNdfQ==
+eyJoaXN0b3J5IjpbMTIxMDEwNDg0OSw0MzEyNDM1NjQsLTQ0Mj
+IwNzQxM119
 -->
