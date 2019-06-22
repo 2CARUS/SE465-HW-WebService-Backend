@@ -5,12 +5,12 @@
 
 ## Solution Description
 - Application Domain
-	- 
+	- Viewing inventories for 
   
   
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwMjUzMTI1LDQzMTI0MzU2NCwtNDQyMj
-A3NDEzXX0=
+eyJoaXN0b3J5IjpbLTE5MzM5Mzg2NTEsNDMxMjQzNTY0LC00ND
+IyMDc0MTNdfQ==
 -->
