@@ -7,8 +7,14 @@ namespace InventoryApi.Models
     {
         public InventoryContext(DbContextOptions<InventoryContext> options) : base(options) { }
 
-        public DbSet<TodoItem> TodoItems { get; set; }
+
+        #region "Database Sets"
 
         public DbSet<MinneapolisItem> MinneapolisItems { get; set; }
+
+        public DbSet<SaintPaulItem> SaintPaulItems { get; set; }
+
+
+        #endregion
     }
 }
