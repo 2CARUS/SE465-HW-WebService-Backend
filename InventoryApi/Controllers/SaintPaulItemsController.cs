@@ -18,13 +18,16 @@ namespace InventoryApi.Controllers
         public SaintPaulItemsController(InventoryContext context)
         {
             _context = context;
+            if (_context.SaintPaulItems.Count() == 0)
+            {
 
-            // Populating store inventory
-            _context.SaintPaulItems.Add(new SaintPaulItem { Quantity = 12, ItemName = "12-inch Macbook" });
-            _context.SaintPaulItems.Add(new SaintPaulItem { Quantity = 10, ItemName = "Microsoft Surface Go Bundle" });
-            _context.SaintPaulItems.Add(new SaintPaulItem { Quantity = 50, ItemName = "Sun Ray 1 Thin Clients" });
-            _context.SaintPaulItems.Add(new SaintPaulItem { Quantity = 30, ItemName = "HP EliteDesk 800" });
-            _context.SaveChanges();
+                // Populating store inventory
+                _context.SaintPaulItems.Add(new SaintPaulItem { Quantity = 12, ItemName = "12-inch Macbook" });
+                _context.SaintPaulItems.Add(new SaintPaulItem { Quantity = 10, ItemName = "Microsoft Surface Go Bundle" });
+                _context.SaintPaulItems.Add(new SaintPaulItem { Quantity = 50, ItemName = "Sun Ray 1 Thin Clients" });
+                _context.SaintPaulItems.Add(new SaintPaulItem { Quantity = 30, ItemName = "HP EliteDesk 800" });
+                _context.SaveChanges();
+            }
         }
 
         // GET: api/SaintPaulItems
