@@ -18,13 +18,23 @@ namespace InventoryApi.Controllers
         public MinneapolisItemsController(InventoryContext context)
         {
             _context = context;
+            if (_context.MinneapolisItems.Count() == 0)
+            {
+                // Create a new TodoItem if collection is empty,
+                // which means you can't delete all TodoItems.
+                _context.MinneapolisItems.Add(new MinneapolisItem {  Quantity = 12, ItemName = "Macbook Pro 2018" });
+                _context.MinneapolisItems.Add(new MinneapolisItem { Quantity = 10, ItemName = "Microsoft Surface Pro 6" });
+                _context.MinneapolisItems.Add(new MinneapolisItem { Quantity = 10, ItemName = "MacPro 2013" });
+                _context.MinneapolisItems.Add(new MinneapolisItem { Quantity = 30, ItemName = "Microsoft Surface Pen" });
+                _context.SaveChanges();
+            }
         }
 
         // GET: api/MinneapolisItems
         [HttpGet]
         public IEnumerable<MinneapolisItem> GetMinneapolisItem()
         {
-            return _context.MinneapolisItem;
+            return _context.MinneapolisItems;
         }
 
         // GET: api/MinneapolisItems/5
@@ -36,7 +46,7 @@ namespace InventoryApi.Controllers
                 return BadRequest(ModelState);
             }
 
-            var minneapolisItem = await _context.MinneapolisItem.FindAsync(id);
+            var minneapolisItem = await _context.MinneapolisItems.FindAsync(id);
 
             if (minneapolisItem == null)
             {
@@ -90,7 +100,7 @@ namespace InventoryApi.Controllers
                 return BadRequest(ModelState);
             }
 
-            _context.MinneapolisItem.Add(minneapolisItem);
+            _context.MinneapolisItems.Add(minneapolisItem);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetMinneapolisItem", new { id = minneapolisItem.Id }, minneapolisItem);
@@ -105,13 +115,13 @@ namespace InventoryApi.Controllers
                 return BadRequest(ModelState);
             }
 
-            var minneapolisItem = await _context.MinneapolisItem.FindAsync(id);
+            var minneapolisItem = await _context.MinneapolisItems.FindAsync(id);
             if (minneapolisItem == null)
             {
                 return NotFound();
             }
 
-            _context.MinneapolisItem.Remove(minneapolisItem);
+            _context.MinneapolisItems.Remove(minneapolisItem);
             await _context.SaveChangesAsync();
 
             return Ok(minneapolisItem);
@@ -119,7 +129,7 @@ namespace InventoryApi.Controllers
 
         private bool MinneapolisItemExists(int id)
         {
-            return _context.MinneapolisItem.Any(e => e.Id == id);
+            return _context.MinneapolisItems.Any(e => e.Id == id);
         }
     }
 }
