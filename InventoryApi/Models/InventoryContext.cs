@@ -9,6 +9,6 @@ namespace InventoryApi.Models
 
         public DbSet<TodoItem> TodoItems { get; set; }
 
-        public DbSet<MinneapolisItem> MinneapolisItem { get; set; }
+        public DbSet<MinneapolisItem> MinneapolisItems { get; set; }
     }
 }
