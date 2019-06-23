@@ -8,12 +8,13 @@
 	- Viewing inventories for hypothetical stores in different cities
 	- A RESTful service would be helpful here, as any number of clients could access the service and have inventory information at their disposal
 - Technologies used
-	- Entity Framework 
+	- [Entity Framework](https://docs.microsoft.com/en-us/ef/core/)  for the data models and making the API controllers
+	- 
   
   
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTU0NjY3MCwtMTkzMzkzODY1MSw0Mz
-EyNDM1NjQsLTQ0MjIwNzQxM119
+eyJoaXN0b3J5IjpbLTE0NjM1NjMxMjcsLTE5MzM5Mzg2NTEsND
+MxMjQzNTY0LC00NDIyMDc0MTNdfQ==
 -->
