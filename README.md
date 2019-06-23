@@ -3,7 +3,7 @@
 - This code base does not need to be downloaded and ran
 - Every commit to this repository automatically deploys it to Azure
 - The only purpose for downloading and running this code would be to deploy it locally or peruse through the code not-in-a-web-browser
-- This API current allows one to make PUT, POST, and DELETE requests, but these will not be saved in the database due to our prototype simulating the lower-privileged "Shopper" user
+- ## This API current allows one to make PUT, POST, and DELETE requests, but these will not be saved in the database due to our prototype simulating the lower-privileged "Shopper" user
 
 ## Assignment description
 > ... This group assignment requires you to design and implement a small prototype in order to show case the successful use of web services in order to solve a specific domain.
@@ -23,7 +23,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODI0MzAxODIsNTQyMjgwNTQyLDg0Nj
+eyJoaXN0b3J5IjpbLTE0NDM2MzM3ODgsNTQyMjgwNTQyLDg0Nj
 gzODUsLTE5MzM5Mzg2NTEsNDMxMjQzNTY0LC00NDIyMDc0MTNd
 fQ==
 -->
