@@ -22,7 +22,7 @@ namespace InventoryApi.Controllers
             {
                 #region "setup"
                 // Populating store inventory
-                _context.MinneapolisItems.Add(new MinneapolisItem {  Quantity = 12, ItemName = "Macbook Pro 2018" });
+                _context.MinneapolisItems.Add(new MinneapolisItem { Quantity = 12, ItemName = "Macbook Pro 2018" });
                 _context.MinneapolisItems.Add(new MinneapolisItem { Quantity = 10, ItemName = "Microsoft Surface Pro 6" });
                 _context.MinneapolisItems.Add(new MinneapolisItem { Quantity = 10, ItemName = "MacPro 2013" });
                 _context.MinneapolisItems.Add(new MinneapolisItem { Quantity = 30, ItemName = "Microsoft Surface Pen" });
