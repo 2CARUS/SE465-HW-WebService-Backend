@@ -1,6 +1,6 @@
 # SE465-HW-WebService-Backend
 ## Notes
-- #### This API current allows one to make PUT, POST, and DELETE requests, but these will not be saved in the database due to our prototype simulating the lower-privileged "Shopper" user
+- #### This API current allows one to make PUT, POST, and DELETE requests, but these will not be saved in the database when the service restarts due to our prototype simulating the lower-privileged "Shopper" user
 - This code base does not need to be downloaded and ran
 - Every commit to this repository automatically deploys it to Azure
 - The only purpose for downloading and running this code would be to deploy it locally or peruse through the code not-in-a-web-browser
