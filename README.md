@@ -9,12 +9,14 @@
 	- A RESTful service would be helpful here, as any number of clients could access the service and have inventory information at their disposal
 - Technologies used
 	- [Entity Framework](https://docs.microsoft.com/en-us/ef/core/)  for the data models and making the API controllers
-	- 
+	- [Azure Web Services](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-rest-api) for deploying the RESTful API that is accessed by the front end
+
+## Notes:
   
   
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM1NjMxMjcsLTE5MzM5Mzg2NTEsND
-MxMjQzNTY0LC00NDIyMDc0MTNdfQ==
+eyJoaXN0b3J5IjpbNjQyOTcwMjA4LC0xOTMzOTM4NjUxLDQzMT
+I0MzU2NCwtNDQyMjA3NDEzXX0=
 -->
