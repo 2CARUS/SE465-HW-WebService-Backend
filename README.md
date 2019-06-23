@@ -2,6 +2,7 @@
 ## Notes
 - This code base does not need to be downloaded and ran
 - Every commit to this repository automatically deploys it to Azure
+- The only purpose for downloading and running this code would be to deploy it somewhere else 
 
 ## Assignment description
 > ... This group assignment requires you to design and implement a small prototype in order to show case the successful use of web services in order to solve a specific domain.
@@ -21,6 +22,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4Mzk1MjUwLC0xOTMzOTM4NjUxLDQzMT
-I0MzU2NCwtNDQyMjA3NDEzXX0=
+eyJoaXN0b3J5IjpbODQ2ODM4NSwtMTkzMzkzODY1MSw0MzEyND
+M1NjQsLTQ0MjIwNzQxM119
 -->
